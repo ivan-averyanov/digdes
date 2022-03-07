@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<script>
+"use strict";
+
+function getWeekDay(date) {
+  let days = ['Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота'];
+
+  return days[date.getDay()];
+}
+
+let date = new Date(2022, 2, 7);
+alert( getWeekDay(date) ); 
+</script>
